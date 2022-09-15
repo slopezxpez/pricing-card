@@ -1,0 +1,54 @@
+
+.main{
+  width:60%;
+  border: 1px;
+  border-color: lightgray;
+  border-style: solid;
+}
+.price{
+  font-size: 30px;
+  font-weight: bold;
+}
+.pricePM{
+  font-style: italic;
+}
+.top{
+  padding:20px;
+}
+h2{
+  color: orange; 
+}
+.topS{
+  color:lightblue;
+}
+.bottom{
+  display:flex;
+}
+.bot{
+  flex: 50%;
+}
+.bottomLeft{
+  background-color: orange;
+  color: white;
+  padding: 20px;
+} 
+.bottomRight{
+  background-color: lightblue;
+  color: white;
+  padding:20px;
+} 
+button{
+  background-color: lightblue;
+  width: 99%;
+  height: 50px;
+  font-size: 18px;
+  border-style: none;
+  border-radius: 5px;
+}
+button:hover{
+  opacity:.8;
+  cursor: pointer;
+}
+.main{
+  box-shadow: 7px 7px 10px lightgray;
+}
